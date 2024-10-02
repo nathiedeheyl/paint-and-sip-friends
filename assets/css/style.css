@@ -13,7 +13,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
     font-family: 'Quicksand', sans-serif;
     color: rgb(32, 30, 30);
 }
@@ -45,6 +44,8 @@ header a {
     color: inherit;
 }
 
+/* Navigation menu */
+
 #menu {
     font-size: 120%;
     letter-spacing: 4px;
@@ -55,11 +56,6 @@ header a {
     margin-bottom: 1em;
 }
 
-.active {
-    border-bottom: 1px solid;
-}
-
-/* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
     background-color: coral;
@@ -72,8 +68,12 @@ nav {
     top: 100%;
 }
 
-/* Nav toggle */
-#nav-toggle:checked~nav {
+/* Highlights page location */
+.active {
+    border-bottom: 1px solid;
+}
+
+#menu-toggle:checked~nav {
     display: block;
 }
 
