@@ -40,7 +40,7 @@ header a {
 }
 
 #menu {
-    size: 110%;
+    font-size: 120%;
     letter-spacing: 4px;
     list-style-type: none;
     margin-top: 0.5em;
