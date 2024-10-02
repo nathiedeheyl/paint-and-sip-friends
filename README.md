@@ -57,6 +57,10 @@
 
 ## Design 
 
+### Fonts
+
+Fonts were imported from: https://fonts.google.com/. As a font for headings, the _Delius Unicase_ font was chosen. To complements its quirky, artistic allure, a cleaner yet still playful sans-serif font was chosen for general text: _Quicksand_.
+
 ## Features 
 
 ## Possible future features 
@@ -72,6 +76,12 @@
 ## Technologies 
 
 ## Testing 
+
+## Credits
+
+### Media
+
++ favicon: https://favicon.io/emoji-favicons/artist-palette <br/>
 
 ## Ressources 
 
