@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     font-family: 'Quicksand', sans-serif;
+    color: rgb(32, 30, 30);
 }
 
 h1 {
@@ -22,6 +23,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
     letter-spacing: 2px;
+    color: rgb(32, 30, 30);
 }
 
 /* Header */
@@ -52,6 +54,17 @@ header a {
 
 .active {
     border-bottom: 1px solid;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: coral;
+    width: 100vh;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+
 }
 
 /* Main content */
