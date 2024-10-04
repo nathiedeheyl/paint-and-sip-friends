@@ -27,10 +27,19 @@ h1 {
     color: rgb(32, 30, 30);
 }
 
+h2 {
+    font-family: "Delius Unicase", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    color: rgb(32, 30, 30);
+}
+
 /* Header */
 header {
     background-color: coral;
-    padding: 0 1rem;
+    padding: 0 1rem 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -47,9 +56,10 @@ header a {
 
 /* Navigation menu */
 nav, #menu {
-    font-size: 120%;
+    font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
+    padding: 0;
 }
 
 #menu > li {
@@ -78,6 +88,7 @@ nav {
 
 .menu-icon {
     font-size: 2rem;
+    padding: 1rem 0;
 }
 
 .active {
