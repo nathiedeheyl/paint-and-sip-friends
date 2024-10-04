@@ -26,7 +26,7 @@ h1 {
     letter-spacing: 2px;
 }
 
-h2 {
+h2, h3 {
     font-family: "Delius Unicase", cursive;
     font-weight: 400;
     font-style: normal;
@@ -105,6 +105,17 @@ main {
     height: 100vh;
     width: 100%; 
     background: url(../images/hero-image-banner.png) no-repeat 80% 20%/cover;
+}
+
+#cover-text {
+    background-color: rgba(245, 229, 220, 0.6);
+    position: absolute;
+    bottom: 94px;
+    width: 80%;
+    min-height: 132px;
+    padding-top: 40px;
+    padding-left: 10px;
+    color: #392116;
 }
 
 /* Footer */
