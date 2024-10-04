@@ -82,9 +82,12 @@ Fonts were imported from: https://fonts.google.com/. As a font for headings, the
 ### Media
 
 + favicon: https://favicon.io/emoji-favicons/artist-palette <br/>
-+ Hero-image created by [OpenAI](https://openai.com/) using DALL-E.*
++ Hero-image created by [OpenAI](https://openai.com/) using DALL-E.* <br/>
++ Weboptimizing images with Imagify: https://app.imagify.io/?status=success&utm_source=email_confirmation&utm_medium=email&utm_campaign=account_confirmation <br/>
 + menu and social media icons: https://fontawesome.com/search?q=instagram&o=r&m=free <br/>
 
 ## Ressources 
+
+Bootstrap: https://getbootstrap.com/docs/5.3/getting-started/introduction/
 
 ## Acknowledgements 
