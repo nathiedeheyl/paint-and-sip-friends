@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Quicksand', sans-serif;
-    color: rgb(32, 30, 30);
+    color: #393434;
 }
 
 /* Typography */
@@ -24,7 +24,6 @@ h1 {
     font-style: normal;
     font-size: 1.5rem;
     letter-spacing: 2px;
-    color: rgb(32, 30, 30);
 }
 
 h2 {
@@ -33,7 +32,6 @@ h2 {
     font-style: normal;
     font-size: 1rem;
     letter-spacing: 2px;
-    color: rgb(32, 30, 30);
 }
 
 /* Header */
@@ -125,4 +123,5 @@ footer {
 #social-networks i {
      font-size: 160%;
      padding: 5%;
+     color: #393434;
 }
