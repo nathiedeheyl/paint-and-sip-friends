@@ -38,12 +38,12 @@ h2 {
 
 /* Header */
 header {
-    background-color: coral;
+    background-color: #eac5a9;
     padding: 0 1rem 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #5f6c7b;
     display: flex;
     justify-content: space-between;
     align-items: baseline; 
@@ -68,11 +68,11 @@ nav, #menu {
 
 nav {
     position: absolute;
-    background-color: coral;
+    background-color: #eac5a9;
     width: 100vh;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #5f6c7b;
     z-index: 98;
     top: 100%;
     display: none;
@@ -97,12 +97,23 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
+    background-color: #f5e5dc;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 90px;
+}
+
+#hero-image {
+    height: 100vh;
+    width: 100%; 
+    background: url(../images/hero-image-banner.png) no-repeat 80% 20%/cover;
 }
 
 /* Footer */
+footer {
+    background-color: #eac5a9;
+}
+
 #social-networks {
     text-align: center;
     padding: 20px 0; 
@@ -114,5 +125,4 @@ main {
 #social-networks i {
      font-size: 160%;
      padding: 5%;
-     color: rgb(32, 30, 30);
 }

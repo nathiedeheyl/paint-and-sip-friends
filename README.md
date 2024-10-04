@@ -82,6 +82,7 @@ Fonts were imported from: https://fonts.google.com/. As a font for headings, the
 ### Media
 
 + favicon: https://favicon.io/emoji-favicons/artist-palette <br/>
++ Hero-image created by [OpenAI](https://openai.com/) using DALL-E.*
 + menu and social media icons: https://fontawesome.com/search?q=instagram&o=r&m=free <br/>
 
 ## Ressources 
