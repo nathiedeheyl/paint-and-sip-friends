@@ -69,7 +69,7 @@ nav, #menu {
 nav {
     position: absolute;
     background-color: #eac5a9;
-    width: 100vh;
+    width: 100%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #5f6c7b;
