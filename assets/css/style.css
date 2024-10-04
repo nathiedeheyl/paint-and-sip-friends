@@ -72,6 +72,14 @@ nav {
     display: block;
 }
 
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    font-size: 2rem;
+}
+
 .active {
     border-bottom: 1px solid;
 }
