@@ -1,14 +1,14 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Quicksand:wght@300..700&display=swap');
 
-/* Asterisk wildcard selector to override default styles added by the browser */
+/* Base styles */
+/* Asterisk wildcard selector */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* General styles */
 body {
     min-height: 100vh;
     display: flex;
@@ -17,6 +17,7 @@ body {
     color: rgb(32, 30, 30);
 }
 
+/* Typography */
 h1 {
     font-family: "Delius Unicase", cursive;
     font-weight: 400;
@@ -45,8 +46,7 @@ header a {
 }
 
 /* Navigation menu */
-
-#menu {
+nav, #menu {
     font-size: 120%;
     letter-spacing: 4px;
     list-style-type: none;
@@ -64,17 +64,16 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     z-index: 98;
-    display: none;
     top: 100%;
-}
-
-/* Highlights page location */
-.active {
-    border-bottom: 1px solid;
+    display: none;
 }
 
 #menu-toggle:checked~nav {
     display: block;
+}
+
+.active {
+    border-bottom: 1px solid;
 }
 
 /* Main content */
