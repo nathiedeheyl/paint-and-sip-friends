@@ -104,6 +104,9 @@ main {
 #hero-image {
     height: 100vh;
     width: 100%; 
+    /* Set fallback background color in case background image doesn't load */
+    background-color: #eac5a9; 
+    /* Background color should be overwritten by the following bachground image */
     background: url(../images/hero-image-banner.png) no-repeat 80% 20%/cover;
 }
 
