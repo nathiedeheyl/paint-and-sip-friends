@@ -121,6 +121,20 @@ main {
     color: #392116;
 }
 
+.scroll-btn {
+    background-color: #829086;
+    color: #232623;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.arrow-icon a {
+    color: #829086;
+    font-size: 2rem;
+}
+
 /* Footer */
 footer {
     background-color: #eac5a9;
