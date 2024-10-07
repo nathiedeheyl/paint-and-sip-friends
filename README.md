@@ -13,69 +13,99 @@
 
 ### Project description 
 
-### Purpose of the project or: What is the main (business) goal of the site? 
+'Paint & Sip with your friends' is a blog for art enthousiasts who want to gather with friends or like-minded people to share artistic experiences. The site offers  recommendations for hosting your own paint & sip night, with tips and tricks, easy painting techniques and motives, as well as stories from a (fictional) group of friends who organise these events. 
+
+### Purpose of the project 
+
+The main goal is to inspire and engage users to host their own creative events and connect with a community of art lovers through shared experiences. 
 
 ## UX 
 
-### User demographic or: Who will be using it? 
+### User demographic or: Who will generally be using the website? 
 
-+ This website targets young artists and lovers of the arts who want to meet new people, share their knowledge about arts and have a good time. 
++ Target users: young to mid-aged art enthousiasts, hobbyists who are looking to meet new people, engage in creative activities, and share ideas in a casual, fun environment. 
 
-### User goals 
+### General User goals 
 
-+ Understand the idea behind 'Paint & Sip'
++ Learn the concept of a 'Paint & Sip' event.
 
-+ Browse ideas for a custom paint & sip night, learn about painting techniques and read about past experiences of the fictional site owners own painting group. 
++ Find ideas and ressources for organising their own events.
 
-+ Get in touch with the fictional site owner to join their group of friends for a painting night. 
++ Read about painting techniques, tips, and past experiences from a art enclined community. 
 
-### User expectations or: What do the primary users need from the website?  
++ Connect with the= site owner through the contact form to join a paint & sip night.  
 
-+ Accessibel website on all devices 
+### General User expectations or: What do the target users need from the website?  
 
-+ Responsive design on all devices 
++ Accessibel website on all devices (mobile, tablet, desktop). 
 
-+ User-friendly interface with intuitive access to the implemented features 
++ Responsive and intuitive design on all devices with consistent navigation. 
 
-+ Working links and features 
++ User-friendly interface with well-structured features. 
 
-+ Creative appearance of the site that sparks inspiration 
-
-+ Consice pieces of content with take-away lessons to improve painting technique 
++ Clear, inspiring content to spark creativity. 
 
 ### User stories 
 
-#### User 
+#### User Groups 
 
-#### Site owner 
+To effectively address the needs of my audtience, I have identified three key user groups: 
 
-+ As the site owner I want to engage with like minded people through a contact form. 
++ **Observers:** Casual browsers who stumble upon the website. They seek relatable content and easy action steps to ignite their creativity. The goal is to engage them with inspiring material that encourages return visits. 
 
-+ As the site owner I want to create opportunities for others and myself to meet up with others interested in art and painting. 
++ **Virtuals:** Active users who engage with the content from a distance. They are looking for practical resources such as challenges, beginner tips, and motivational content that empowers them to start or continue painting and enhance their skills. They feel as a part of a supportive community. 
 
-+ As the site owner I want to promote the growth of the site's user base --> by regularly updating a blog about own experiences, meet ups and new insights. 
++ **Locals:** Individuals who live in the area and are interested in attending meetups. They are motivated to start painting by receiving easy action steps and are primarily focused on finding information about upcoming events. Additionally, they seek engaging content that fosters excitement about participating in friendly gatherings with fellow art enthusiasts.
+
+#### For the User: 
+
++ _As an observer_, I want to feel encouraged to start painting as a creative hobby and feel confident about its use for my personal life. 
++ _As an observer_, I want to be inspired by relatable content so that I feel motivated to explore my own creativity.
++ _As an observer_, I want to discover easy action steps for starting my artistic journey so that I can begin painting without feeling overwhelmed.
++ _As a virtual_, I want to find challenges and beginner tips on how to paint at home so that I can improve my skills and enrich my personal life.
++ _As a virtual_, I want to access regularly updated content with creative ideas and motivational words about the benefits of painting, so I can keep my creativity flowing.
++ _As a local_, I want to learn about upcoming meetups so that I can join a friendly gathering of fellow art enthusiasts and make new friends.
++ _As a local_, I want to read authentic and lively content about past meetups so that I feel excited to participate and connect with others in my area.
+
+#### As the Site owner:
+
++ I want to share blog posts and experiences from my paint and sip nights, so that I can inspire others to join or start their own events. 
++ I want to connect with like-minded people through this website, so I can grow a community of hobby artists. 
++ I want to encourage others to start painting without fear of judgment, so they can build confidence in their creative skills. 
++ I want to grow my website and eventually explore monetization opportunities, so I can potentially turn the website/project into a source of income. 
 
 ## Design 
 
 ### Fonts
 
-Fonts were imported from: https://fonts.google.com/. As a font for headings, the _Delius Unicase_ font was chosen. To complements its quirky, artistic allure, a cleaner yet still playful sans-serif font was chosen for general text: _Quicksand_.
+Fonts were imported from: https://fonts.google.com/. As a heading font, _Delius Unicase_ brings an artistic, quirky allure, while _Quicksand_, a modern sans-serif font, is used for the body to ensure readability while maintaining a playful appearance. 
 
 ## Features 
 
++ Homepage with a hero image and an introduction to Paint & Sip events. 
++ A blog section featuring various painting tips and event experiences. 
++ Contact form for users to reach out to the site owner. 
+
 ## Possible future features 
 
-+ A comment section underneath each new blog post. 
++ A comment section under each blog post for users to engage. 
 
-+ Individual profile creation to allow users to post pictures and text content about their art work and learnings. 
++ User profiles for sharing personal artwork and experiences. 
 
-+ A testimonials section displaying feedback from participants of the organised meet ups. 
++ A testimonials section for feedback from event participants. 
 
 ## Languages 
 
++ Mainly HTML, CSS
+
 ## Technologies 
 
-## Testing 
++ Bootstrap for layout and components 
++ Google Fonts for typography 
++ Font Awesome for icons 
++ Imagify for image optimisation 
+
+## Testing: or a personal log so far .. tbd 
 
 nav width: 100vh caused toggled menu to have a max width of 648px. fixed by adjusting width: 100% instead. 
 
@@ -83,10 +113,10 @@ nav width: 100vh caused toggled menu to have a max width of 648px. fixed by adju
 
 ### Media
 
-+ favicon: https://favicon.io/emoji-favicons/artist-palette <br/>
-+ Hero-image created by [OpenAI](https://openai.com/) using DALL-E.* <br/>
-+ Weboptimizing images with Imagify: https://app.imagify.io/?status=success&utm_source=email_confirmation&utm_medium=email&utm_campaign=account_confirmation <br/>
-+ menu and social media icons: https://fontawesome.com/search?q=instagram&o=r&m=free <br/>
++ favicon: https://favicon.io/emoji-favicons/artist-palette 
++ Hero-image created by [OpenAI](https://openai.com/) using DALL-E.* 
++ Weboptimizing images with Imagify: https://app.imagify.io/?status=success&utm_source=email_confirmation&utm_medium=email&utm_campaign=account_confirmation 
++ menu and social media icons: https://fontawesome.com/search?q=instagram&o=r&m=free 
 
 ## Ressources 
 
