@@ -141,9 +141,17 @@ main {
 }
 
 /* Contact Form Styles */
+#get-in-touch {
+    background-image: url(../images/contact-form-background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
 #message {
     margin: 10px 15px;
 }
+
 .text-input {
     width: 100%;
     padding: 10px 15px;
