@@ -64,7 +64,7 @@ header a {
     margin-bottom: 1em;
 }
 
-nav {
+header > nav {
     position: absolute;
     background-color: #eac5a9;
     width: 100%;
