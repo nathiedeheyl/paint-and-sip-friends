@@ -140,6 +140,13 @@ main {
     color: inherit;
 }
 
+/* Blog Styles */
+.fixed-nav {
+    position: fixed;
+    top: 100%;
+    z-index: 100;
+}
+
 /* Contact Form Styles */
 #get-in-touch {
     background-image: url(../images/contact-form-background.jpeg);
@@ -156,6 +163,7 @@ main {
 
 .text-input {
     background: transparent;
+    /* font-family: 'Quicksand' sans-serif; */
     width: 100%;
     padding: 10px 15px;
     margin-bottom: 15px;
