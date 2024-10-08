@@ -141,14 +141,25 @@ main {
 }
 
 /* Contact Form Styles */
+#message {
+    margin: 10px 15px;
+}
 .text-input {
     width: 100%;
     padding: 10px 15px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
     /* Ensures padding doesn't exceed the width */
     box-sizing: border-box;
+}
+
+#message h2 {
+    margin-bottom: 20px;
+}
+
+#message button {
+    margin-top: 20px;
 }
 
 /* Footer */
