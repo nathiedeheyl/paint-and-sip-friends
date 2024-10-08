@@ -140,6 +140,17 @@ main {
     color: inherit;
 }
 
+/* Contact Form Styles */
+.text-input {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* Ensures padding doesn't exceed the width */
+    box-sizing: border-box;
+}
+
 /* Footer */
 footer {
     background-color: #eac5a9;

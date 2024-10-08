@@ -37,8 +37,28 @@
         </nav>
     </header>
 
-    <!-- Main content -->
-    <main>Text: Main</main>
+    <!-- Contact Form -->
+    <main>
+        <section id="message">
+            <form id="message-form" method="post" action="https://formdump.codeinstitutenet">
+                <h2>Get in touch with us</h2>
+                <!-- First Name -->
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name" class="text-input" required><br>
+                <!-- Last Name -->
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" class="text-input" required><br>
+                <!-- Email Address -->
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email-address" id="email-address" class="text-input" required><br>
+                <!-- Message -->
+                <label for="message-text">Your Message (Max 500 characters)</label>
+                <textarea name="message-text" id="message-text" class="text-input" maxlength="500" rows="4" placeholder="Write your message here..." required></textarea><br>
+                <!-- Submit Button -->
+                 <button type="submit" class="jump-btn">Post your Letter</button>
+            </form>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
