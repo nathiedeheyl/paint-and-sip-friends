@@ -38,7 +38,9 @@ h2, h3 {
 header {
     background-color: #eac5a9;
     padding: 0 1rem 1rem;
-    position: fixed;
+    position: sticky;
+    top: 0;
+    left: 0;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #5f6c7b;
@@ -98,7 +100,6 @@ main {
     background-color: #f5e5dc;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 90px;
 }
 
 #hero-image {
