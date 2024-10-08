@@ -151,7 +151,7 @@ main {
 #message {
     margin: 10px 15px;
     padding: 5px;
-    background-color: rgba(234, 197, 169, 0.5);
+    background-color: rgba(234, 197, 169, 0.7);
 }
 
 .text-input {
@@ -163,6 +163,11 @@ main {
     border-radius: 4px;
     /* Ensures padding doesn't exceed the width */
     box-sizing: border-box;
+}
+
+.text-input::placeholder {
+    color: #fafafa;
+    opacity: 1;
 }
 
 #message h2 {
