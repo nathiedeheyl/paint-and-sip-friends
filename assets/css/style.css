@@ -150,13 +150,16 @@ main {
 
 #message {
     margin: 10px 15px;
+    padding: 5px;
+    background-color: rgba(234, 197, 169, 0.5);
 }
 
 .text-input {
+    background: transparent;
     width: 100%;
     padding: 10px 15px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #fafafa;
     border-radius: 4px;
     /* Ensures padding doesn't exceed the width */
     box-sizing: border-box;
