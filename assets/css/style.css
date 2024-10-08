@@ -145,11 +145,6 @@ main {
     max-width: 300px;
 }
 
-.row {
-    display: flex;
-    justify-content: center;
-}
-
 /* Blog Styles */
 .fixed-nav {
     position: fixed;
