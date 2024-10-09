@@ -73,7 +73,7 @@ header > nav {
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #5f6c7b;
-    /* z-index: 98; */
+    z-index: 99;
     top: 100%;
     display: none;
 }
@@ -147,9 +147,20 @@ main {
 
 /* Blog Styles */
 .fixed-nav {
-    position: fixed;
+    position: absolute;
     top: 100%;
-    z-index: 100;
+    background-color: #eac5a9;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #5f6c7b;
+}
+
+.fixed-nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
 }
 
 /* Contact Form Styles */
