@@ -179,11 +179,8 @@ main {
 }
 
 .tools-heading {
+    padding-top: 10px;
     margin: 20px;
-}
-
-.tool-icons {
-    
 }
 
 /* Contact Form Styles */
