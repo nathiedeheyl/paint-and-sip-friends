@@ -171,6 +171,12 @@ main {
 }
 
 /* Blog Tools Section */
+.tools-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 5px;
+}
 
 .tools-heading {
     margin: 20px;
