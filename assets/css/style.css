@@ -146,6 +146,7 @@ main {
 }
 
 /* Blog Styles */
+/* General Blog Styles */
 .fixed-nav {
     position: absolute;
     top: 100%;
@@ -168,6 +169,8 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
+
+/* Blog Tools Section */
 
 .tools-heading {
     margin: 20px;
