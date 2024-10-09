@@ -163,6 +163,16 @@ main {
     padding: 8px;
 }
 
+#blog-main {
+    margin-top: 38px;
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+}
+
+.tools-heading {
+    margin: 20px;
+}
+
 /* Contact Form Styles */
 #get-in-touch {
     background-image: url(../images/contact-form-background.jpeg);
