@@ -291,4 +291,8 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #393434;
     }
+
+    .hide-on-large {
+        display: none;
+    }
 }
