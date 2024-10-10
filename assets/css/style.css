@@ -170,17 +170,17 @@ main {
     flex: 1 0 auto;
 }
 
+.blog-headings {
+    padding-top: 10px;
+    margin: 20px;
+}
+
 /* Blog Tools Section */
 .tools-container {
     display: flex;
     justify-content: space-around;
     text-align: center;
     margin: 5px;
-}
-
-.blog-headings {
-    padding-top: 10px;
-    margin: 20px;
 }
 
 /* Blog Meetup times section */
