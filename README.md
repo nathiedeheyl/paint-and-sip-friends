@@ -46,6 +46,8 @@
 
 The main goal is to inspire and engage users to host their own creative events and connect with a community of art lovers through shared experiences. 
 
+[Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
+
 ## UX 
 
 ### User demographic or: Who will generally be using the website? 
@@ -101,11 +103,15 @@ To effectively address the needs of my audtience, I have identified three key us
 + I want to encourage others to start painting without fear of judgment, so they can build confidence in their creative skills. 
 + I want to grow my website and eventually explore monetization opportunities, so I can potentially turn the website/project into a source of income. 
 
+[Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
+
 ## Design 
 
 ### Fonts
 
 Fonts were imported from: https://fonts.google.com/. As a heading font, _Delius Unicase_ brings an artistic, quirky allure, while _Quicksand_, a modern sans-serif font, is used for the body to ensure readability while maintaining a playful appearance. 
+
+[Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
 
 ## Features 
 
@@ -122,6 +128,8 @@ Fonts were imported from: https://fonts.google.com/. As a heading font, _Delius 
 
 + Contact form for users to reach out to the site owner. 
 
+[Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
+
 ## Possible future features 
 
 + Change 'blog.html' to some informational site and create a blog.html that most recent diy projects and blog posts on as bootstrap cards on informational site link to with more detailed visual and text content. 
@@ -129,6 +137,8 @@ Fonts were imported from: https://fonts.google.com/. As a heading font, _Delius 
 + A comment section under each blog post for users to engage. 
 + User profiles for sharing personal artwork and experiences. 
 + A testimonials section for feedback from event participants. 
+
+[Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
 
 ## Languages 
 
@@ -141,10 +151,13 @@ Fonts were imported from: https://fonts.google.com/. As a heading font, _Delius 
 + Font Awesome for icons 
 + Imagify for image optimisation 
 
+[Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
+
 ## Testing: or a personal log so far .. tbd 
 
 https://dequeuniversity.com/rules/axe/4.10/link-name
 
+[Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
 
 ## Credits
 
@@ -158,6 +171,8 @@ https://dequeuniversity.com/rules/axe/4.10/link-name
 ## Ressources 
 
 Bootstrap: https://getbootstrap.com/docs/5.3/getting-started/introduction/
+
+[Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
 
 ## Changelog 
 
@@ -177,4 +192,8 @@ found out about mx-auto for bootstrap cards...
 
 change in header syntax, since I used h2 for styling purposes. reverted this, made it an h1 with inline style insted. 
 
+[Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
+
 ## Acknowledgements 
+
+[Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
