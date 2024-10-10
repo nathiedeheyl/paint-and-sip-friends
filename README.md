@@ -1,21 +1,48 @@
 # Paint & Sip with your friends
 ## A blog about a art and recommendations for your own paint & sip night
 
-! [Mockup image]()
+![Mockup image]()
 
-! [Preview the website]()
+[Preview the website]()
 
 ## Tabel of contents 
 
-...
+1. [General](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#general)
+    - [Project description](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#project-description)  
+    - [Purpose of the project](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#purpose-of-the-project)
+2. [UX](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#ux)
+    - [User demographic](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#user-demographic-or-who-will-generally-be-using-the-website)
+    - [General User goals](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#general-user-goals)
+    - [General User expectations](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#general-user-expectations-or-what-do-the-target-users-need-from-the-website)
+    - [User stories](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#user-stories)
+        - [User Groups](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#user-groups)
+        - [For the User](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#for-the-user)
+        - [For the Site owner](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#as-the-site-owner)
+3. [Design](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#design)
+    - [Fonts](link)
+4. [Features](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#features)
+    - [Home page](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#home-page)
+    - [Blog page](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#blog-page)
+    - [Get in touch page](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#get-in-touch-page)
+5. [Possible future features](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#possible-future-features)
+6. [Languages](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#languages)
+7. [Technologies](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#technologies)
+8. [Testing](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#testing-or-a-personal-log-so-far--tbd)
+9. [Credits](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#credits)
+    - [Media](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#media)
+    - [Resources](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#ressources)
+10. [Changelog](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#changelog)
+    - [Version 1.0.0 (Initial)](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#version-100-initial)
+11. [Acknowledgements](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#acknowledgements)
 
-## General 
 
-### Project description 
+## General
+
+### Project description
 
 'Paint & Sip with your friends' is a blog for art enthousiasts who want to gather with friends or like-minded people to share artistic experiences. The site offers  recommendations for hosting your own paint & sip night, with tips and tricks, easy painting techniques and motives, as well as stories from a (fictional) group of friends who organise these events. 
 
-### Purpose of the project 
+### Purpose of the project
 
 The main goal is to inspire and engage users to host their own creative events and connect with a community of art lovers through shared experiences. 
 
@@ -119,7 +146,6 @@ Fonts were imported from: https://fonts.google.com/. As a heading font, _Delius 
 https://dequeuniversity.com/rules/axe/4.10/link-name
 
 
-
 ## Credits
 
 ### Media
@@ -150,6 +176,5 @@ nav width: 100vh caused toggled menu to have a max width of 648px. fixed by adju
 found out about mx-auto for bootstrap cards... 
 
 change in header syntax, since I used h2 for styling purposes. reverted this, made it an h1 with inline style insted. 
-
 
 ## Acknowledgements 
