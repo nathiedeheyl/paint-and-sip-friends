@@ -6,6 +6,7 @@
 * {
     padding: 0;
     margin: 0;
+    /* Ensures padding doesn't exceed the width */
     box-sizing: border-box;
 }
 
@@ -209,7 +210,7 @@ main {
 }
 
 #message {
-    margin: 10px 15px;
+    margin: 1rem 1rem;
     padding: 5px;
     background-color: rgba(234, 197, 169, 0.9);
 }
@@ -222,8 +223,6 @@ main {
     margin-bottom: 15px;
     border: 1px solid #fafafa;
     border-radius: 4px;
-    /* Ensures padding doesn't exceed the width */
-    box-sizing: border-box;
 }
 
 .text-input::placeholder {
