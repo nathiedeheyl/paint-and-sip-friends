@@ -195,6 +195,15 @@ main {
 
 #times > div {
     flex: 1 1;
+    background-color: rgba(234, 197, 169, 0.5);
+    padding: 5px;
+}
+
+#times h3, #times p {
+    display: inline;
+    background-color: rgba(234, 197, 169, 0.9);
+    padding: 5px;
+    border-radius: 5px;
 }
 
 /* Contact Form Styles */
