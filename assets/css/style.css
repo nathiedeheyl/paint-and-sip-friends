@@ -183,6 +183,20 @@ main {
     margin: 20px;
 }
 
+/* Blog Meetup times section */
+#times {
+    /* background-color: #829086; */
+    background: url(../images/meetup-background.webp) no-repeat 70% 30%/cover;
+    /* Handles responsively without the need for a media query */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#times > div {
+    flex: 1 1;
+}
+
 /* Contact Form Styles */
 #get-in-touch {
     background-image: url(../images/contact-form-background.jpeg);
