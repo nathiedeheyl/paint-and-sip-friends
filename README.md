@@ -116,11 +116,9 @@ Fonts were imported from: https://fonts.google.com/. As a heading font, _Delius 
 
 ## Testing: or a personal log so far .. tbd 
 
-nav width: 100vh caused toggled menu to have a max width of 648px. fixed by adjusting width: 100% instead. 
+https://dequeuniversity.com/rules/axe/4.10/link-name
 
-found out about mx-auto for bootstrap cards... 
 
-change in header syntax, since I used h2 for styling purposes. reverted this, made it an h1 with inline style insted. 
 
 ## Credits
 
@@ -144,7 +142,14 @@ Bootstrap: https://getbootstrap.com/docs/5.3/getting-started/introduction/
 + ? How to fixe the slide over due to sticky instead of fixed ... as well as for jump to #motivation 
 + jump-btn to guide reader on mobile device and ??? media query 
 + Accordion instead of original idea of clickable buttons with collapsable text using bootstrap data-bs-parent="" 
++ Make links discernible (https://dequeuniversity.com/rules/axe/4.10/link-name)
 + add a call-to-action button that links to #contact-form.html to guide reader to 'Get in Touch' page to contact site owner to obtain Zoom link invitation for virtual events 
+
+nav width: 100vh caused toggled menu to have a max width of 648px. fixed by adjusting width: 100% instead. 
+
+found out about mx-auto for bootstrap cards... 
+
+change in header syntax, since I used h2 for styling purposes. reverted this, made it an h1 with inline style insted. 
 
 
 ## Acknowledgements 
