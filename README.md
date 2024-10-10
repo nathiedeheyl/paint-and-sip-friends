@@ -117,8 +117,9 @@ Fonts were imported from: https://fonts.google.com/. As a heading font, _Delius 
 
 ### Home page 
 
-+ Homepage with a hero image and an introduction to Paint & Sip events. 
-+ Idea of guiding-reader-along-mobile-website buttons 
++ Guiding mobile device user along the page with a button of the class="jump-btn" in the hero section of the home page that jumps to the next section, the #about section. This button is reused for the same purpose between the #about section and the following #motivation section, ensuring that users can easily navigate the home page and its content. 
+
++ The second .jump-btn is hidden on larger screens from 992px on, as there isn't enough content to justify its presence; users generally scroll naturally on desktops, making it unnecessary and potentially irritating. 
 
 ### Blog page
 
@@ -178,12 +179,18 @@ Bootstrap: https://getbootstrap.com/docs/5.3/getting-started/introduction/
 
 ### Version 1.0.0 (Initial)
 
-+ Made header sticky instead of fixed 
-+ jump-btn 
++ Made header sticky instead of fixed
+
++ Added a button .jump-btn to the hero section that when clicked jumps to the #about section, aimed at guiding mobile users to read all the content of the home page. 
+
 + ? How to fixe the slide over due to sticky instead of fixed ... as well as for jump to #motivation 
-+ jump-btn to guide reader on mobile device and ??? media query 
+
++ Added .jump-btn after #about section for the same purpose as above to jump to #motvation section. Removed this button on larger screensto prevent irritation due to unnecessary nativation elements. 
+
 + Accordion instead of original idea of clickable buttons with collapsable text using bootstrap data-bs-parent="" 
+
 + Make links discernible (https://dequeuniversity.com/rules/axe/4.10/link-name)
+
 + add a call-to-action button that links to #contact-form.html to guide reader to 'Get in Touch' page to contact site owner to obtain Zoom link invitation for virtual events 
 
 nav width: 100vh caused toggled menu to have a max width of 648px. fixed by adjusting width: 100% instead. 
@@ -191,6 +198,8 @@ nav width: 100vh caused toggled menu to have a max width of 648px. fixed by adju
 found out about mx-auto for bootstrap cards... 
 
 change in header syntax, since I used h2 for styling purposes. reverted this, made it an h1 with inline style insted. 
+
+Removed margins of ul in header to make it take up less space on tablets where horizontal space is more key. 
 
 [Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
 
