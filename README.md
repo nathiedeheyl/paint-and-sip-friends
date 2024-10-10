@@ -109,16 +109,9 @@ Fonts were imported from: https://fonts.google.com/. As a heading font, _Delius 
 
 nav width: 100vh caused toggled menu to have a max width of 648px. fixed by adjusting width: 100% instead. 
 
-.card {
-    max-width: 300px;
-}
+found out about mx-auto for bootstrap cards... 
 
-.row {
-    display: flex;
-    justify-content: center;
-}
-
-don't work to center cards within their flexbox
+change in header syntax, since I used h2 for styling purposes. reverted this, made it an h1 with inline style insted. 
 
 ## Credits
 
