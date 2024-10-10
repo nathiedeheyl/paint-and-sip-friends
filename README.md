@@ -97,6 +97,8 @@ Fonts were imported from: https://fonts.google.com/. As a heading font, _Delius 
 
 ## Possible future features 
 
++ Change 'blog.html' to some informational site and create a blog.html that most recent diy projects and blog posts on as bootstrap cards on informational site link to with more detailed visual and text content. 
+
 + A comment section under each blog post for users to engage. 
 + User profiles for sharing personal artwork and experiences. 
 + A testimonials section for feedback from event participants. 
@@ -136,5 +138,13 @@ Bootstrap: https://getbootstrap.com/docs/5.3/getting-started/introduction/
 ## Changelog 
 
 ### Version 1.0.0 (Initial)
+
++ Made header sticky instead of fixed 
++ jump-btn 
++ ? How to fixe the slide over due to sticky instead of fixed ... as well as for jump to #motivation 
++ jump-btn to guide reader on mobile device and ??? media query 
++ Accordion instead of original idea of clickable buttons with collapsable text using bootstrap data-bs-parent="" 
++ add a call-to-action button that links to #contact-form.html to guide reader to 'Get in Touch' page to contact site owner to obtain Zoom link invitation for virtual events 
+
 
 ## Acknowledgements 
