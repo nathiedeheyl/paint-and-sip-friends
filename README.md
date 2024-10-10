@@ -3,7 +3,7 @@
 
 ! [Mockup image]()
 
-## Preview the website 
+! [Preview the website]()
 
 ## Tabel of contents 
 
@@ -82,16 +82,23 @@ Fonts were imported from: https://fonts.google.com/. As a heading font, _Delius 
 
 ## Features 
 
+### Home page 
+
 + Homepage with a hero image and an introduction to Paint & Sip events. 
++ Idea of guiding-reader-along-mobile-website buttons 
+
+### Blog page
+
 + A blog section featuring various painting tips and event experiences. 
+
+### Get in touch page 
+
 + Contact form for users to reach out to the site owner. 
 
 ## Possible future features 
 
 + A comment section under each blog post for users to engage. 
-
 + User profiles for sharing personal artwork and experiences. 
-
 + A testimonials section for feedback from event participants. 
 
 ## Languages 
@@ -125,5 +132,9 @@ change in header syntax, since I used h2 for styling purposes. reverted this, ma
 ## Ressources 
 
 Bootstrap: https://getbootstrap.com/docs/5.3/getting-started/introduction/
+
+## Changelog 
+
+### Version 1.0.0 (Initial)
 
 ## Acknowledgements 
