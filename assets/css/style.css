@@ -67,7 +67,7 @@ header a {
     margin-bottom: 1em;
 }
 
-header > nav {
+nav {
     position: absolute;
     background-color: #eac5a9;
     width: 100%;
@@ -255,4 +255,33 @@ footer {
      font-size: 160%;
      padding: 5%;
      color: #393434;
+}
+
+/* Media query: tablet and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: flex;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding: 1rem 1rem 0;
+    }
+
+    #menu {
+        display: flex;
+        padding: 1rem 0;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    header ul {
+        margin-bottom: 0;
+    }
 }
