@@ -29,12 +29,13 @@
 6. [Languages](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#languages)
 7. [Technologies](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#technologies)
 8. [Testing](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#testing-or-a-personal-log-so-far--tbd)
-9. [Credits](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#credits)
+9. [Deployment](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#deployment)
+10. [Credits](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#credits)
     - [Media](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#media)
     - [Resources](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#ressources)
-10. [Changelog](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#changelog)
+11. [Changelog](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#changelog)
     - [Version 1.0.0 (Initial)](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#version-100-initial)
-11. [Acknowledgements](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#acknowledgements)
+12. [Acknowledgements](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#acknowledgements)
 
 
 ## General
