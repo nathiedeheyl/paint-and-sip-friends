@@ -51,81 +51,82 @@
 
     <!-- Main content -->
     <main id="blog-main">
-        <!-- Tools section heading -->
         <section id="tools">
+            <!-- Tools section heading -->
             <div class="text-center mb-4 blog-headings">
                 <h2>Get started: The tools you need</h2>
             </div>
+
+            <!-- Tools section -->
+            <!-- Accordion for tools -->
+            <div class="accordion" id="toolAccordion">
+                <!-- Paint Brushes -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingBrush">
+                        <button class="accordion-button collapsed jump-btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseBrush" aria-expanded="true" aria-controls="collapseBrush">
+                            <i class="fa fa-paint-brush"></i> Paint Brushes
+                        </button>
+                    </h3>
+                    <div id="collapseBrush" class="accordion-collapse collapse show" aria-labelledby="headingBrush"
+                        data-bs-parent="#toolAccordion">
+                        <div class="accordion-body">
+                            Paint brushes are an essential tool for any artist. They come in various shapes and sizes,
+                            each
+                            serving a different purpose.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Acrylic Paint -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingPaint">
+                        <button class="accordion-button collapsed jump-btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsePaint" aria-expanded="false" aria-controls="collapsePaint">
+                            <i class="fa-solid fa-fill-drip"></i> Acrylic Paint
+                        </button>
+                    </h3>
+                    <div id="collapsePaint" class="accordion-collapse collapse" aria-labelledby="headingPaint"
+                        data-bs-parent="#toolAccordion">
+                        <div class="accordion-body">
+                            You will need colors to paint.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Color Palette -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingPalette">
+                        <button class="accordion-button collapsed jump-btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsePalette" aria-expanded="false" aria-controls="collapsePalette">
+                            <i class="fa-solid fa-palette"></i> Color Palette
+                        </button>
+                    </h3>
+                    <div id="collapsePalette" class="accordion-collapse collapse" aria-labelledby="headingPalette"
+                        data-bs-parent="#toolAccordion">
+                        <div class="accordion-body">
+                            A palette is essential for mixing colors and keeping your workspace organized.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Canvas -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingCanvas">
+                        <button class="accordion-button collapsed jump-btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseCanvas" aria-expanded="false" aria-controls="collapseCanvas">
+                            <i class="fa-regular fa-clipboard"></i> Canvas
+                        </button>
+                    </h3>
+                    <div id="collapseCanvas" class="accordion-collapse collapse" aria-labelledby="headingCanvas"
+                        data-bs-parent="#toolAccordion">
+                        <div class="accordion-body">
+                            Something to paint on: A canvas!
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-
-        <!-- Tools section -->
-        <!-- Accordion for tools -->
-        <div class="accordion" id="toolAccordion">
-            <!-- Paint Brushes -->
-            <div class="accordion-item">
-                <h3 class="accordion-header" id="headingBrush">
-                    <button class="accordion-button collapsed jump-btn" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseBrush" aria-expanded="true" aria-controls="collapseBrush">
-                        <i class="fa fa-paint-brush"></i> Paint Brushes
-                    </button>
-                </h3>
-                <div id="collapseBrush" class="accordion-collapse collapse show" aria-labelledby="headingBrush"
-                    data-bs-parent="#toolAccordion">
-                    <div class="accordion-body">
-                        Paint brushes are an essential tool for any artist. They come in various shapes and sizes, each
-                        serving a different purpose.
-                    </div>
-                </div>
-            </div>
-
-            <!-- Acrylic Paint -->
-            <div class="accordion-item">
-                <h3 class="accordion-header" id="headingPaint">
-                    <button class="accordion-button collapsed jump-btn" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapsePaint" aria-expanded="false" aria-controls="collapsePaint">
-                        <i class="fa-solid fa-fill-drip"></i> Acrylic Paint
-                    </button>
-                </h3>
-                <div id="collapsePaint" class="accordion-collapse collapse" aria-labelledby="headingPaint"
-                    data-bs-parent="#toolAccordion">
-                    <div class="accordion-body">
-                        You will need colors to paint.
-                    </div>
-                </div>
-            </div>
-
-            <!-- Color Palette -->
-            <div class="accordion-item">
-                <h3 class="accordion-header" id="headingPalette">
-                    <button class="accordion-button collapsed jump-btn" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapsePalette" aria-expanded="false" aria-controls="collapsePalette">
-                        <i class="fa-solid fa-palette"></i> Color Palette
-                    </button>
-                </h3>
-                <div id="collapsePalette" class="accordion-collapse collapse" aria-labelledby="headingPalette"
-                    data-bs-parent="#toolAccordion">
-                    <div class="accordion-body">
-                        A palette is essential for mixing colors and keeping your workspace organized.
-                    </div>
-                </div>
-            </div>
-
-            <!-- Canvas -->
-            <div class="accordion-item">
-                <h3 class="accordion-header" id="headingCanvas">
-                    <button class="accordion-button collapsed jump-btn" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseCanvas" aria-expanded="false" aria-controls="collapseCanvas">
-                        <i class="fa-regular fa-clipboard"></i> Canvas
-                    </button>
-                </h3>
-                <div id="collapseCanvas" class="accordion-collapse collapse" aria-labelledby="headingCanvas"
-                    data-bs-parent="#toolAccordion">
-                    <div class="accordion-body">
-                        Something to paint on: A canvas!
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!-- Projects section -->
         <section id="projects">
@@ -219,7 +220,7 @@
                     invitation</a>
             </div>
         </section>
-        
+
     </main>
 
     <!-- Footer -->
