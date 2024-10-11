@@ -5,7 +5,7 @@
 
 [Preview the website]()
 
-## Tabel of contents 
+## Table of contents 
 
 1. [General](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#general)
     - [Project description](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#project-description)  
@@ -40,11 +40,11 @@
 
 ### Project description
 
-'Paint & Sip with your friends' is a blog for art enthousiasts who want to gather with friends or like-minded people to share artistic experiences. The site offers  recommendations for hosting your own paint & sip night, with tips and tricks, easy painting techniques and motives, as well as stories from a (fictional) group of friends who organise these events. 
+'Paint & Sip with your friends' is a platform for art enthousiasts looking to explore painting while connecting with friends for like-minded people. The site offers practical advice for beginners on how to get started, which tools to aqquire and recommends some easy step by step tutorials to begin with. Additionally, the blog features a ficitional group of friends who organise different art related events, and users can find a contact form for inquiries or taking part in those events. 
 
 ### Purpose of the project
 
-The main goal is to inspire and engage users to host their own creative events and connect with a community of art lovers through shared experiences. 
+The main goal is to inspire and engage users to start or continue painting as a hobby and connect with a community of art lovers through shared experiences. 
 
 [Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
 
