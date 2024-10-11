@@ -252,6 +252,17 @@ https://dequeuniversity.com/rules/axe/4.10/link-name
 
 [Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
 
+## Deployment 
+
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
+
+- In the [GitHub repository](https://github.com/nathiedeheyl/paint-and-sip-friends), navigate to the Settings tab.
+- Under the heading "Code and automation", select "Pages".
+- From the Build and deployment section Branch drop-down menu, select the **Main** Branch and the /root folder, then click "Save".
+- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+[View the live site here](https://nathiedeheyl.github.io/paint-and-sip-friends)
+
 ## Credits
 
 ### Media
