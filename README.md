@@ -262,16 +262,67 @@ To complement the primary colors and soft beige background color of the website,
 
 ## Technologies 
 
++ Github for repository 
++ Gitpod IDE
++ Chrome Dev Tools 
++ Balsamiq for Wireframes 
 + Bootstrap for layout and components 
 + Google Fonts for typography 
 + Font Awesome for icons 
 + Imagify for image optimisation 
++ Page Speed Insights for accessibility requirements 
++ W3C for HTML code validation 
++ W3C for CSS code validation 
 
 [Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
 
-## Testing: or a personal log so far .. tbd 
+## Testing 
 
-https://dequeuniversity.com/rules/axe/4.10/link-name
++ Throughout the workflow I have used the recommended [W3C HTML Validator](https://validator.w3.org) and [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/). 
+
++ Change in original header syntax, since I used h2 for styling purposes. Reverted this, made it an h1 with inline styling insted. 
+
+### Manual testing checklist
+
+| Category                 | Feature                                               | Result                                                                                  |
+|--------------------------|-------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| **Feature Testing**       | Sticky Header                                         | Header stays at the top when scrolling.                                                  |
+|                          | Toggle Menu                                           | Menu opens and closes when clicked on smaller devices, displaying a horizontal layout on larger screens. |
+|                          | Jump Button                                           | Button scrolls to the corresponding section smoothly on mobile devices.                 |
+|                          | Accordion in Blog Section                             | Accordion expands/collapses when clicked, displaying the content properly.               |
+|                          | Call-to-Action Button (Meetups)                       | Button redirects users to the contact page.                                             |
+| **Responsiveness Testing**| Sticky Header                                         | Header adjusts layout on larger screens and remains fixed on all device sizes when scrolling.                            |
+|                          | Menu Flexbox Layout                                   | Menu layout switches from a vertical toggle on mobile to a horizontal layout on larger screens. |
+|                          | Bootstrap Columns in Motivation Section               | Columns adjust for all screen sizes, ensuring a clean display on mobile, tablet, and desktop. |
+|                          | Blog Section's Accordion                              | Accordion properly adjusts and doesn't overlap or distort on mobile devices.             |
+|                          | Flexbox Layout in Meetups Section                     | Content in the section aligns properly in a compact display on smaller screens.          |
+|                          | Contact Form Responsiveness                           | Contact form adjusts to all screen sizes, ensuring proper layout and usability on mobile, tablet, and desktop. |
+| **Form Validation Testing**| Contact Form Validation                              | Validation triggers on form submission: email field requires an "@" sign, and all required fields must be filled. |
+|                          | Contact Form Submit Button                            | On successful form submission, a new tab opens displaying the submitted text, indicating that the form works properly. |
+| **Cross Browser Testing** | Chrome                                 | Website and features works as above                        |
+|                          | Safari                                   | Website and features works as above                |
+|                          | Opera                       | Website and features works as above |
+
+### Bugs
+
++ After running the https://pagespeed.web.dev/ to access accessability I was prompted to make all links discernible; Research: (https://dequeuniversity.com/rules/axe/4.10/link-name); Added 'aria-labels' to all links, including anchor navigation links. 
+
++ Nav 'width: 100vh' caused toggled menu to have a max width of 648px. Fixed by adjusting 'width' to 100% instead. 
+
++ To center the bootstrap cards I had to contact turoring assistance eventually to find out about the "mx-auto" class which centered them on smaller devices below 768px. 
+
++ Removed margins of 'ul' in all headers to make it take up less space on tablets when hold horizontally. 
+
++ Used long version of background properties for contact form background image, because shorthand version wouldn't apply the image styling correctly. The long version ensured that the background was displayed properly across all screen sizes.
+
+    ```
+    #get-in-touch {
+        background-image: url(../images/contact-form-background.webp);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    ```
 
 [Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
 
@@ -282,7 +333,7 @@ The site was deployed to GitHub Pages. The steps to deploy are as follows:
 - In the [GitHub repository](https://github.com/nathiedeheyl/paint-and-sip-friends), navigate to the Settings tab.
 - Under the heading "Code and automation", select "Pages".
 - From the Build and deployment section Branch drop-down menu, select the **Main** Branch and the /root folder, then click "Save".
-- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- Refresh the page. Upon success you will be notified. 
 
 [View the live site here](https://nathiedeheyl.github.io/paint-and-sip-friends)
 
@@ -291,9 +342,10 @@ The site was deployed to GitHub Pages. The steps to deploy are as follows:
 ### Media
 
 + favicon: https://favicon.io/emoji-favicons/artist-palette 
-+ Hero-image created by [OpenAI](https://openai.com/) using DALL-E.* 
++ Hero-image, Link Card images, Form Background Image created by [OpenAI](https://openai.com/) using DALL-E.* 
 + Weboptimizing images with Imagify: https://app.imagify.io/?status=success&utm_source=email_confirmation&utm_medium=email&utm_campaign=account_confirmation 
-+ menu and social media icons: https://fontawesome.com/search?q=instagram&o=r&m=free 
++ Menu and social media icons: https://fontawesome.com/search?q=instagram&o=r&m=free 
++ DIY Project cards: https://www.pinterest.de/ 
 
 ## Ressources 
 
@@ -307,35 +359,18 @@ Code Institute's Submissions repository: https://github.com/Code-Institute-Submi
 
 ### Version 1.0.0 (Initial)
 
-+ Made header sticky instead of fixed
++ Made header sticky instead of fixed to integrate it in document flow and remove margins on main content. 
 
 + Added a button .jump-btn to the hero section that when clicked jumps to the #about section, aimed at guiding mobile users to read all the content of the home page. 
 
-+ ? How to fixe the slide over due to sticky instead of fixed ... as well as for jump to #motivation 
++ Added an empty div between #about and #motivation for anchor navigation in an attempt to prevent to prevent the #about content from sliding under the sticky header that becomes fixed after scrolling. 
 
-+ Added .jump-btn after #about section for the same purpose as above to jump to #motvation section. Removed this button on larger screensto prevent irritation due to unnecessary nativation elements. 
++ Added .jump-btn after #about section for the same purpose as above to jump to #motvation section. Removed this button on larger screens to prevent irritation due to unnecessary nativation elements. 
 
-+ Accordion instead of original idea of clickable buttons with collapsable text using bootstrap data-bs-parent="" 
++ Bootstrap accordion instead of original idea of clickable buttons with collapsable text using bootstrap data-bs-parent="". 
 
-+ Make links discernible (https://dequeuniversity.com/rules/axe/4.10/link-name)
++ add a call-to-action button after #meetups section that links to contact-form.html to guide reader to 'Get in Touch' page to contact site owner to obtain Zoom link invitation for virtual events.
 
-+ add a call-to-action button that links to #contact-form.html to guide reader to 'Get in Touch' page to contact site owner to obtain Zoom link invitation for virtual events 
-
-nav width: 100vh caused toggled menu to have a max width of 648px. fixed by adjusting width: 100% instead. 
-
-found out about mx-auto for bootstrap cards... 
-
-change in header syntax, since I used h2 for styling purposes. reverted this, made it an h1 with inline style insted. 
-
-Removed margins of ul in header to make it take up less space on tablets where horizontal space is more key. 
-
-#get-in-touch {
-    background-image: url(../images/contact-form-background.webp);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
--- bc of error otherwise?? 
++ Added a custom 404.html page with embedded css styling for the purpose of clarity. 
 
 [Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
