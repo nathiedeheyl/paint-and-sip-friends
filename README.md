@@ -121,6 +121,12 @@ Fonts were imported from: https://fonts.google.com/. As a heading font, _Delius 
 
 + The second .jump-btn is hidden on larger screens from 992px on, as there isn't enough content to justify its presence; users generally scroll naturally on desktops, making it unnecessary and potentially irritating. 
 
++ In the #motivation and #link section Bootstrap's colums system and cards have been used for responsiveness and a more interesting structure of the home page. 
+
++ The two link cards in the #link section redirect to the Blog page and Get-in-touch page via clicking a button in the style of previous jump-btn. 
+
++ Font Awesome social media icons in the footer. Rather then the commonly linked Twitter/X icon I choose to integrate Pinterest in the Footer Section because it generelly fits the context of my website better. 
+
 ### Blog page
 
 + A blog section featuring various painting tips and event experiences. 
