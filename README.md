@@ -1,9 +1,9 @@
 # Paint & Sip with your friends
-## A blog about a art and recommendations for your own paint & sip night
+## A blog about painting and making artsy friends
 
-![Mockup image]()
+![](assets/images/screenshot-responsive_design.png)
 
-[Preview the website]()
+[Preview the website by clicking here](https://nathiedeheyl.github.io/paint-and-sip-friends)
 
 ## Table of contents 
 
@@ -35,14 +35,36 @@
     - [Resources](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#ressources)
 11. [Changelog](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#changelog)
     - [Version 1.0.0 (Initial)](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#version-100-initial)
-12. [Acknowledgements](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#acknowledgements)
 
 
 ## General
 
 ### Project description
 
-'Paint & Sip with your friends' is a platform for art enthousiasts looking to explore painting while connecting with friends for like-minded people. The site offers practical advice for beginners on how to get started, which tools to aqquire and recommends some easy step by step tutorials to begin with. Additionally, the blog features a ficitional group of friends who organise different art related events, and users can find a contact form for inquiries or taking part in those events. 
+'Paint & Sip with your friends' is a platform for art enthousiasts looking to explore painting while connecting with friends for like-minded people. The site offers practical advice for beginners on how to get started, which tools to aqquire and recommends some easy step by step tutorials to begin with. Additionally, the blog features a ficitional group of friends who organise different art related events, and users can find a contact form for inquiries or taking part in those events.
+
+<details>
+<summary>Wireframes</summary>
+
+<details>
+<summary>Wireframes for mobile devices</summary>
+
+![Wireframe for mobile devices](assets/images/balsamiq-wireframe_homepage_mobile.png)
+
+</details>
+<details>
+<summary>Wireframes for tablet devices</summary>
+
+![Wireframe for tablet devices](assets/images/balsamiq-wireframe_homepage_tablet.png)
+
+</details>
+<details>
+<summary>Wireframes for desktops</summary>
+
+![Wireframe for desktop](assets/images/balsamiq-wireframe_homepage_desktop.png)
+
+</details>
+</details>
 
 ### Purpose of the project
 
@@ -277,6 +299,8 @@ The site was deployed to GitHub Pages. The steps to deploy are as follows:
 
 Bootstrap: https://getbootstrap.com/docs/5.3/getting-started/introduction/
 
+Code Institute's Submissions repository: https://github.com/Code-Institute-Submissions/
+
 [Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
 
 ## Changelog 
@@ -313,9 +337,5 @@ Removed margins of ul in header to make it take up less space on tablets where h
 }
 
 -- bc of error otherwise?? 
-
-[Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
-
-## Acknowledgements 
 
 [Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
