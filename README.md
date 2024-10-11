@@ -20,6 +20,7 @@
         - [For the Site owner](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#as-the-site-owner)
 3. [Design](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#design)
     - [Fonts](link)
+    - [Colors and Contrast](insert link)
 4. [Features](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#features)
     - [Home page](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#home-page)
     - [Blog page](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#blog-page)
@@ -112,6 +113,15 @@ To effectively address the needs of my audtience, I have identified three key us
 Fonts were imported from: https://fonts.google.com/. As a heading font, _Delius Unicase_ brings an artistic, quirky allure, while _Quicksand_, a modern sans-serif font, is used for the body to ensure readability while maintaining a playful appearance. 
 
 [Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
+
+### Colors and Contrast 
+
++ **Primary colors:** The main colors the focus lies on are: #eac5a9 for the background of e. g. header and footer; and #393434 as body text color for it's soft contrast that fits the general pastel allure of the website. 
+
++ **Secondary colors:** The general background color of the website is #f5e5dc which fits the pastel vibe of the website and aligns the richer primary shades. </br>
+To complement the primary colors and soft beige background color of the website, a soft, but dark green was chosen to create enough contrast in elements like the jump-btns without disturbing the aestetics: #f5e5dc. 
+
++ **Contrast:** To ensure enough contrast ratio was given, the Chrome dev tools were used mostly, as well as https://pagespeed.web.dev/. 
 
 ## Features 
 
