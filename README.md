@@ -127,33 +127,109 @@ To complement the primary colors and soft beige background color of the website,
 
 ### Home page 
 
-+ Guiding mobile device user along the page with a button of the class="jump-btn" in the hero section of the home page that jumps to the next section, the #about section. This button is reused for the same purpose between the #about section and the following #motivation section, ensuring that users can easily navigate the home page and its content. 
++ A sticky header with toggle down menu for smaller devices appears on all pages. It opens by clicking the three dots icon on the right side of the header. On larger devices (from 768px), the #menu appears in a horizontal line, styled with flexbox. </br>
+    <details>
+    <summary>Screenshots of responsive header</summary>
 
-+ The second .jump-btn is hidden on larger screens from 992px on, as there isn't enough content to justify its presence; users generally scroll naturally on desktops, making it unnecessary and potentially irritating. 
+    ![Responsive Header](assets/images/screenshot-features-1.png)</br>
 
-+ In the #motivation and #link section Bootstrap's colums system and cards have been used for responsiveness and a more interesting structure of the home page. 
+    ![Toggle down menu on mobile devices](assets/images/screenshot-features-2.png)
+    </details></br>
 
-+ The two link cards in the #link section redirect to the Blog page and Get-in-touch page via clicking a button in the style of previous jump-btn. 
++ A button of class="jump-btn" in the hero section guides mobile users to the next section (#about). The button is reused between the #about and #motivation sections, ensuring smooth navigation through the homepage content. 
 
-+ Font Awesome social media icons in the footer. Rather then the commonly linked Twitter/X icon I choose to integrate Pinterest in the Footer Section because it generelly fits the context of my website better. 
+    <details>
+    <summary>Screenshots of jump-btn(s)</summary>
+
+    ![Jump-to-About Button](assets/images/screenshot-features-button-1.png)</br>
+
+    ![Jump-to-Motivation Button](assets/images/screenshot-features-button-2.png)
+    </details></br>
+
++ The second .jump-btn is hidden on larger screens from 992px on, as there isn't enough content to justify its presence; users tend to scroll naturally on desktops, making it unnecessary and potentially irritating. 
+
+    <details>
+    <summary>Media query for second jump-btn</summary>
+
+    ![Hidden Button on larger screens](assets/images/screenshot-features-button-3.png)</br>
+
+    </details></br>
+
++ In the #motivation and #link section, Bootstrap's colums system and cards create a responsive and visually appealing structure.
+
++ The two link cards in the #link section redirect to the Blog page and Get-in-touch pages, using buttons styled like the previous jump-btn.
+
+    <details>
+    <summary>Inside navigation through links (buttons)</summary>
+
+    ![Bootstrap Cards link to other pages](assets/images/screenshot-features-link_cards.png)</br>
+
+    </details></br>
+
++ Font Awesome social media icons are in the footer. Pinterest replaces the commonly used Twitter/X icon, as it better fits the website's context.
+
+    <details>
+    <summary>Social media icons in Footer</summary>
+
+    ![Social media icons in Footer](assets/images/screenshot-features-footer.png)</br>
+
+    </details></br>
 
 ### Blog page
 
-+ A blog section featuring various painting tips and event experiences. 
++ In addition to the sticky header, a fixed navigation bar was added for the blog page to help users navigate through different sections (Tools, Projects, Meetup times). These sections are expected to grow over time, justifying the extra navigation bar, which is styled slimmer for larger devices (from 768px). 
+
+    <details>
+    <summary>Additional navigation bar on Blog page</summary>
+
+    ![Additional nav on mobile device](assets/images/screenshot-features-fixed-nav-1.png)</br>
+
+    ![Responsiveness of additional navbar](assets/images/screenshot-features-fixed-nav-2.png)
+    </details></br>
+
++ A Bootstrap accordion organizes the #tools section, keeping the page uncluttered and focusing the user's attention on other content. 
+
+    (see screenshot above for visual)
+
++ The #meetup section uses flexbox for a compact display on smaller devices. 
+
++ The #meetups section includes a call-to-action button guiding users to the contact form page. 
+
+    <details>
+    <summary>Flexbox styling of meetup section and call-to-action button</summary>
+
+    ![Meetup section with call-to-action btn](assets/images/screenshot-features-meetups.png)</br>
+    </details></br>
 
 ### Get in touch page 
 
-+ Contact form for users to reach out to the site owner. 
++ A simple, user-friendly contact form with validation, built with regular HTML.
+
++ The contact form features a matching background image and a submit button, maintaining consistent styling with the rest of the website.
+
+    <details>
+    <summary>Contact Form of Get in touch page</summary>
+
+    ![Contact Form with background image](assets/images/screenshot-features-contact-form.png)</br>
+    </details></br>
 
 [Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
 
 ## Possible future features 
 
-+ Change 'blog.html' to some informational site and create a blog.html that most recent diy projects and blog posts on as bootstrap cards on informational site link to with more detailed visual and text content. 
++ Convert 'blog.html' into an informational site. List most recent DIY projects and actual blog posts on informational site and create a new blog.html to which recent diy project and blog post cards on informational site link. Make new blog.html a page for more detailed visual and text content that the corresponding cards on infromational site link to. 
 
-+ A comment section under each blog post for users to engage. 
-+ User profiles for sharing personal artwork and experiences. 
-+ A testimonials section for feedback from event participants. 
++ Add a comment section under each blog post for user engagement.
+
++ Develop a newsletter sign-up feature to keep users updated on new blog posts, events, and tips.
+
++ Implement user profiles to allow sharing of personal artwork and experiences.
+
++ Add a testimonials section for feedback from event participants.
+
++ Create a 'gallery' page where users can upload and showcase their artwork, allowing others to browse through creations.
+
++ Integrate social media sharing options for each blog post to increase outreach and visibility.
 
 [Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
 
@@ -216,6 +292,15 @@ found out about mx-auto for bootstrap cards...
 change in header syntax, since I used h2 for styling purposes. reverted this, made it an h1 with inline style insted. 
 
 Removed margins of ul in header to make it take up less space on tablets where horizontal space is more key. 
+
+#get-in-touch {
+    background-image: url(../images/contact-form-background.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+-- bc of error otherwise?? 
 
 [Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
 
