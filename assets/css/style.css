@@ -188,7 +188,8 @@ main {
 
 /* Blog Meetup times section */
 #times {
-    /* background-color: #829086; */
+    /* Fallback background color */
+    background-color: #829086;
     background: url(../images/meetup-background.webp) no-repeat 70% 30%/cover;
     /* Handles responsively without the need for a media query */
     display: flex;
@@ -219,7 +220,6 @@ main {
 
 .text-input {
     background: transparent;
-    /* font-family: 'Quicksand' sans-serif; */
     width: 100%;
     padding: 10px 15px;
     margin-bottom: 15px;
