@@ -375,4 +375,6 @@ Code Institute's Submissions repository: https://github.com/Code-Institute-Submi
 
 + Since my main goal is "to inspire and engage users to start or continue painting as a hobby," and most of my target audience is likely to visit the website on a mobile device, I decided to change the layout of the Bootstrap cards in the #about section. I vertically stacked the cards to avoid overwhelming mobile users with too much content in the "Why Paint?" section. On desktop devices, having the cards in a row created an imbalance due to the differing content amounts. I imagine only my more engaged users, the "locals and virtuals," will likely visit the site on a larger screen to explore rather the DIY projects or engage with the blog and it's future features. Therefore, the home page layout is primarily optimized for mobile users.
 
++ Added a final `.intro-paragraph` style rule to format the content under the #Meetups heading. This class has been created for future use.
+
 [Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
