@@ -72,8 +72,6 @@
 
 The main goal is to inspire and engage users to start or continue painting as a hobby and connect with a community of art lovers through shared experiences. 
 
-[Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#table-of-contents)
-
 ## UX 
 
 ### User demographic or: Who will generally be using the website? 
@@ -129,15 +127,11 @@ To effectively address the needs of my audtience, I have identified three key us
 + I want to encourage others to start painting without fear of judgment, so they can build confidence in their creative skills. 
 + I want to grow my website and eventually explore monetization opportunities, so I can potentially turn the website/project into a source of income. 
 
-[Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
-
 ## Design 
 
 ### Fonts
 
 Fonts were imported from: https://fonts.google.com/. As a heading font, _Delius Unicase_ brings an artistic, quirky allure, while _Quicksand_, a modern sans-serif font, is used for the body to ensure readability while maintaining a playful appearance. 
-
-[Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
 
 ### Colors and Contrast 
 
@@ -229,8 +223,6 @@ To complement the primary colors and soft beige background color of the website,
     ![Contact Form with background image](assets/images/screenshot-features-contact-form.png)</br>
     </details></br>
 
-[Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
-
 ## Possible future features 
 
 + Convert 'blog.html' into an informational site. List most recent DIY projects and actual blog posts on informational site and create a new blog.html to which recent diy project and blog post cards on informational site link. Make new blog.html a page for more detailed visual and text content that the corresponding cards on infromational site link to. 
@@ -246,8 +238,6 @@ To complement the primary colors and soft beige background color of the website,
 + Create a 'gallery' page where users can upload and showcase their artwork, allowing others to browse through creations.
 
 + Integrate social media sharing options for each blog post to increase outreach and visibility.
-
-[Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
 
 ## Languages 
 
@@ -266,8 +256,6 @@ To complement the primary colors and soft beige background color of the website,
 + Page Speed Insights for accessibility requirements 
 + W3C for HTML code validation 
 + W3C for CSS code validation 
-
-[Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
 
 ## Testing 
 
@@ -317,8 +305,6 @@ To complement the primary colors and soft beige background color of the website,
     }
     ```
 
-[Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
-
 ## Deployment 
 
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
@@ -346,8 +332,6 @@ Bootstrap: https://getbootstrap.com/docs/5.3/getting-started/introduction/
 
 Code Institute's Submissions repository: https://github.com/Code-Institute-Submissions/
 
-[Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
-
 ## Changelog 
 
 ### Version 1.0.0 (Initial)
@@ -372,4 +356,4 @@ Code Institute's Submissions repository: https://github.com/Code-Institute-Submi
 
 + Removed .hidden-on-large after applying more margin to second jump-btn after #about section, creating more space on larger screens and recreating the necessity of a binding element. 
 
-[Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
++ Remove 'Back to Table of Content' links because they were broken and could not be fixed.
