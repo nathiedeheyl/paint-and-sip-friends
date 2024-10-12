@@ -103,6 +103,15 @@ main {
     flex: 1 0 auto;
 }
 
+.intro-paragraph {
+    margin: 20px 0;
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+    padding: 5%;
+    width: 100%;
+    text-align: justify;
+}
+
 /* Hero section */
 #hero-image {
     height: 100vh;
