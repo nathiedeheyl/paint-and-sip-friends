@@ -169,15 +169,6 @@ To complement the primary colors and soft beige background color of the website,
     ![Jump-to-Motivation Button](assets/images/screenshot-features-button-2.png)
     </details></br>
 
-+ The second .jump-btn is hidden on larger screens from 992px on, as there isn't enough content to justify its presence; users tend to scroll naturally on desktops, making it unnecessary and potentially irritating. 
-
-    <details>
-    <summary>Media query for second jump-btn</summary>
-
-    ![Hidden Button on larger screens](assets/images/screenshot-features-button-3.png)</br>
-
-    </details></br>
-
 + In the #motivation and #link section, Bootstrap's colums system and cards create a responsive and visually appealing structure.
 
 + The two link cards in the #link section redirect to the Blog page and Get-in-touch pages, using buttons styled like the previous jump-btn.
@@ -365,7 +356,7 @@ Code Institute's Submissions repository: https://github.com/Code-Institute-Submi
 
 + Added an empty div between #about and #motivation for anchor navigation in an attempt to prevent to prevent the #about content from sliding under the sticky header that becomes fixed after scrolling. 
 
-+ Added .jump-btn after #about section for the same purpose as above to jump to #motvation section. Removed this button on larger screens to prevent irritation due to unnecessary nativation elements. 
++ Added .jump-btn after #about section for the same purpose as above to jump to #motvation section. ~~Removed this button on larger screens to prevent irritation due to unnecessary nativation elements.~~ 
 
 + Bootstrap accordion instead of original idea of clickable buttons with collapsable text using bootstrap data-bs-parent="". 
 
@@ -376,5 +367,7 @@ Code Institute's Submissions repository: https://github.com/Code-Institute-Submi
 + Since my main goal is "to inspire and engage users to start or continue painting as a hobby," and most of my target audience is likely to visit the website on a mobile device, I decided to change the layout of the Bootstrap cards in the #about section. I vertically stacked the cards to avoid overwhelming mobile users with too much content in the "Why Paint?" section. On desktop devices, having the cards in a row created an imbalance due to the differing content amounts. I imagine only my more engaged users, the "locals and virtuals," will likely visit the site on a larger screen to explore rather the DIY projects or engage with the blog and it's future features. Therefore, the home page layout is primarily optimized for mobile users.
 
 + Added a final `.intro-paragraph` style rule to format the content under the #Meetups heading. This class has been created for future use.
+
++ Removed .hidden-on-large after applying more margin to second jump-btn after #about section, creating more space on larger screens and recreating the necessity of a binding element. 
 
 [Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
