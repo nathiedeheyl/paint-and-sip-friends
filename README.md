@@ -72,7 +72,7 @@
 
 The main goal is to inspire and engage users to start or continue painting as a hobby and connect with a community of art lovers through shared experiences. 
 
-[Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#tabel-of-contents)
+[Back to Table of Contents](https://github.com/nathiedeheyl/paint-and-sip-friends/blob/main/README.md#table-of-contents)
 
 ## UX 
 
